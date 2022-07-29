@@ -1,6 +1,7 @@
 
 git add . -> to add the files
 git commit -am "Message as patch notes"
+git push origin -> to push onto Git
 
 
 
@@ -20,3 +21,6 @@ python manage.py startapp profiles_api -> for django app
 python manage.py runserver 0.0.0.0:8000 -> to run the server
 
 sudo fuser -k 8000/tcp -> to kill the server
+
+python manage.py makemigrations profiles_api -> to create migrations
+python manage.py migrate -> to migrate
