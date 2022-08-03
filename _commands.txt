@@ -3,6 +3,7 @@ git add . -> to add the files
 git commit -am "Message as patch notes"
 git push origin -> to push onto Git
 
+cat ~/.ssh/id_rsa.pub -> for key/pair authentication
 
 
 vagrant destroy
@@ -24,3 +25,5 @@ sudo fuser -k 8000/tcp -> to kill the server
 
 python manage.py makemigrations profiles_api -> to create migrations
 python manage.py migrate -> to migrate
+
+chmod +x deploy/*.sh -> makes scripts executable
