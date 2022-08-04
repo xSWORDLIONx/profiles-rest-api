@@ -27,3 +27,5 @@ python manage.py makemigrations profiles_api -> to create migrations
 python manage.py migrate -> to migrate
 
 chmod +x deploy/*.sh -> makes scripts executable
+
+curl -sL _script-url-git_ | sudo bash - -> runs script for server setup
